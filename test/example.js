@@ -3,7 +3,7 @@
 let assert = require('chai').assert;
 
 describe('Tests', function() {
-  describe('should pass', function() {
+  it('should pass', function() {
       assert.equal(true, true);
   });
 });
